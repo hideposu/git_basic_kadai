@@ -1,0 +1,28 @@
+PS C:\Users\edama> cd "C:\Users\edama\Desktop\TEST"
+PS C:\Users\edama\Desktop\TEST> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\edama\Desktop\TEST
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/04/06     15:57                git_challenge
+
+
+PS C:\Users\edama\Desktop\TEST> cd git_challenge
+PS C:\Users\edama\Desktop\TEST\git_challenge> git init
+Initialized empty Git repository in C:/Users/edama/Desktop/TEST/git_challenge/.git/
+PS C:\Users\edama\Desktop\TEST\git_challenge> git add hello_world.txt                                            
+PS C:\Users\edama\Desktop\TEST\git_challenge> git commit -m "hello_world.txtを追加"
+[master (root-commit) f6f9d90] hello_world.txt繧定ｿｽ蜉
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\edama\Desktop\TEST\git_challenge> git add hello_world.txt
+PS C:\Users\edama\Desktop\TEST\git_challenge> git commit -m "日本語訳を追記"
+[master be9ebd0] 譌･譛ｬ隱櫁ｨｳ繧定ｿｽ險
+ 1 file changed, 2 insertions(+)
+PS C:\Users\edama\Desktop\TEST\git_challenge> git log --oneline
+be9ebd0 (HEAD -> master) 日本語訳を追記
+f6f9d90 hello_world.txtを追加
+PS C:\Users\edama\Desktop\TEST\git_challenge> 
